@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.37614.0 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Mecanique des sols et des roches - Chute de blocs", "Mecanique des sols et des roches - Chute de blocs.pyproj", "{738E46CD-459F-4EA3-8B8F-8A039CF558B1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{738E46CD-459F-4EA3-8B8F-8A039CF558B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{738E46CD-459F-4EA3-8B8F-8A039CF558B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A2AE5D20-AC3C-4E15-B3F1-3FEB5AC8BF7F}
+	EndGlobalSection
+EndGlobal
