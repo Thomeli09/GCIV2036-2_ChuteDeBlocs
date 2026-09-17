@@ -1,22 +1,25 @@
 # Mecanique des sols et des roches - Chute de blocs
 
-## Disclaimer:
 
 
+## Disclaimer
 
-## Contributing
+This project is provided as-is, without warranty of any kind.
 
-Contributions to this repository are welcome. Examples of things you can contribute:
+Before using it in laboratory, industrial, safety-critical, or regulated environments, verify that the software behaves correctly with your specific balance, communication interface, and measurement workflow.
+
+The author is not responsible for incorrect measurements, data loss, equipment damage, or other consequences resulting from the use of this software.
 
 ## Requirements
 
-Python 3.12 and other common packages listed in `requirements.txt`.
+* Python 3.12
+* Additional Python packages listed in `requirements.txt`
 
-## Installation & usage
+Development and testing dependencies are listed separately in `requirements-dev.txt`.
+
+## Installation
 
 ### 1. Clone the repository
-
-Clone the repository and move into the project directory:
 
 ```bash
 git clone https://github.com/Thomeli09/GCIV2036-2_ChuteDeBlocs.git
@@ -25,26 +28,71 @@ cd GCIV2036-2_ChuteDeBlocs
 
 ### 2. Install the required dependencies
 
-The Python packages required to run the project are listed in `requirements.txt`.
-
-Install them with:
+Install the runtime dependencies with:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-This command automatically installs all the Python dependencies required to use the project.
-
 ### 3. Development installation
 
-Additional packages used for development, testing, code formatting, and other development tools are listed in `requirements-dev.txt`.
+Additional packages used for development, testing, documentation, and related tools are listed in `requirements-dev.txt`.
 
-To install the development environment, run:
+Install the complete development environment with:
 
 ```bash
 pip install -r requirements-dev.txt
 ```
 
-The development requirements also include the packages listed in `requirements.txt`. Therefore, developers only need to install `requirements-dev.txt`.
+The development requirements include the packages from `requirements.txt`, so developers only need to install `requirements-dev.txt`.
 
-This ensures that the regular project dependencies and the development tools are installed together.
+## Usage
+
+Usage documentation and examples will be added as the project develops.
+
+For supported balances, serial communication settings, and API examples, see the project documentation and source code.
+
+## Contributing
+
+Contributions are welcome.
+
+Examples of useful contributions include:
+
+* support for additional balances or communication protocols;
+* bug fixes;
+* improvements to serial communication handling;
+* additional tests;
+* documentation improvements;
+* usage examples;
+* compatibility improvements for different operating systems.
+
+If you plan to make a significant change, consider opening an issue first to discuss the proposed implementation.
+
+## Citation
+
+If you use Chute de blocs in academic, scientific, technical, or published work, please cite the project.
+
+Citation metadata is available in [`CITATION.cff`](CITATION.cff).
+
+A BibTeX citation can also be written as:
+
+```bibtex
+@software{Thommes_ChuteDeBlocs_2026,
+  author       = {Thommes, Eliott},
+  title        = {Chute de blocs: },
+  year         = {2026},
+  version      = {0.0.1},
+  url          = {https://github.com/Thomeli09/GCIV2036-2_ChuteDeBlocs}
+}
+```
+
+Author: **Eliott Thommes**
+ORCID: [0009-0005-0697-2438](https://orcid.org/0009-0005-0697-2438)
+
+## License
+
+Chute de blocs is licensed under the ... License.
+
+Copyright © 2026 Eliott Thommes.
+
+See the [`LICENSE`](LICENSE) file for the full license text.

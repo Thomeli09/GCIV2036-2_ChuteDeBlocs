@@ -95,6 +95,7 @@
     <Folder Include="tests\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="CITATION.cff" />
     <Content Include="README.md" />
     <Content Include="requirements-dev.txt" />
     <Content Include="requirements.txt" />
