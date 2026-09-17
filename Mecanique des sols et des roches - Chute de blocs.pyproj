@@ -96,6 +96,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="CITATION.cff" />
+    <Content Include="pyproject.toml" />
     <Content Include="README.md" />
     <Content Include="requirements-dev.txt" />
     <Content Include="requirements.txt" />
