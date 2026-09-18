@@ -1,0 +1,8 @@
+numpy
+matplotlib
+
+[dev]
+pytest
+pytest-cov
+ruff
+sphinx

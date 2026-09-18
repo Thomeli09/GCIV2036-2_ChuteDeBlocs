@@ -4,7 +4,8 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>738e46cd-459f-4ea3-8b8f-8a039cf558b1</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Mecanique_des_sols_et_des_roches___Chute_de_blocs.py</StartupFile>
+    <StartupFile>
+    </StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -27,7 +28,6 @@
     <Compile Include="examples\basic_simulation.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Mecanique_des_sols_et_des_roches___Chute_de_blocs.py" />
     <Compile Include="src\chute_de_blocs\geometry\rock.py">
       <SubType>Code</SubType>
     </Compile>
@@ -35,6 +35,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="src\chute_de_blocs\geometry\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="src\chute_de_blocs\materials\material.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="src\chute_de_blocs\materials\rock_material.py">

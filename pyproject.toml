@@ -1,1 +1,60 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
 
+
+[project]
+name = "chute-de-blocs"
+version = "0.1.0"
+description = "Tools for rockfall mechanics and simulations"
+readme = "README.md"
+requires-python = ">=3.12"
+license = "GPL-3.0-or-later"
+
+authors = [
+    { name = "Eliott Thommes" }
+]
+
+dependencies = [
+    "numpy",
+    "matplotlib",
+]
+
+keywords = [
+    "rockfall",
+    "geotechnical engineering",
+    "rock mechanics",
+    "simulation",
+]
+
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+    "Topic :: Scientific/Engineering",
+]
+
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+    "pytest-cov",
+    "ruff",
+    "sphinx",
+]
+
+
+[project.urls]
+Homepage = "https://github.com/Thomeli09/GCIV2036-2_ChuteDeBlocs"
+Repository = "https://github.com/Thomeli09/GCIV2036-2_ChuteDeBlocs"
+Issues = "https://github.com/Thomeli09/GCIV2036-2_ChuteDeBlocs/issues"
+
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = [
+    "--import-mode=importlib",
+]

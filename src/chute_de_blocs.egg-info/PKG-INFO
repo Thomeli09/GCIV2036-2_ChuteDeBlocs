@@ -1,3 +1,28 @@
+Metadata-Version: 2.4
+Name: chute-de-blocs
+Version: 0.1.0
+Summary: Tools for rockfall mechanics and simulations
+Author: Eliott Thommes
+License-Expression: GPL-3.0-or-later
+Project-URL: Homepage, https://github.com/Thomeli09/GCIV2036-2_ChuteDeBlocs
+Project-URL: Repository, https://github.com/Thomeli09/GCIV2036-2_ChuteDeBlocs
+Project-URL: Issues, https://github.com/Thomeli09/GCIV2036-2_ChuteDeBlocs/issues
+Keywords: rockfall,geotechnical engineering,rock mechanics,simulation
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Scientific/Engineering
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+Provides-Extra: dev
+Requires-Dist: pytest; extra == "dev"
+Requires-Dist: pytest-cov; extra == "dev"
+Requires-Dist: ruff; extra == "dev"
+Requires-Dist: sphinx; extra == "dev"
+Dynamic: license-file
+
 # Mecanique des sols et des roches - Chute de blocs
 
 
@@ -31,7 +56,7 @@ cd GCIV2036-2_ChuteDeBlocs
 Install the runtime dependencies with:
 
 ```bash
-pip install -e .
+pip install -r requirements.txt
 ```
 
 ### 3. Development installation
@@ -41,7 +66,7 @@ Additional packages used for development, testing, documentation, and related to
 Install the complete development environment with:
 
 ```bash
-pip install -e ".[dev]"
+pip install -r requirements-dev.txt
 ```
 
 The development requirements include the packages from `requirements.txt`, so developers only need to install `requirements-dev.txt`.
